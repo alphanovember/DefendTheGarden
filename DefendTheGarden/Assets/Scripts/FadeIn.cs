@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -11,6 +11,7 @@ public class FadeIn : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		fadePanel = GetComponent<Image> ();
+
 	}
 	
 	// Update is called once per frame

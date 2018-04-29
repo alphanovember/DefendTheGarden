@@ -23,4 +23,9 @@ public class PersistentMusic : MonoBehaviour {
 			audioSource.Play() ;
 		} 
 	}
+	public void SetVolume(float volume){
+
+		audioSource.volume = volume;
+	}
+
 }
